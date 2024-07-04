@@ -1,0 +1,22 @@
+
+
+.navbar a.nav-link:hover,
+.navbar .dropdown:hover .dropdown-toggle {
+  background-color:  rgb(117, 105, 93);
+  color: #FFFFFF; 
+  text-decoration:underline;
+  border-radius: 10px;
+}
+.nav-link{
+    color: rgb(8, 8, 8);
+}
+.navbar a.nav-link, .navbar .dropdown .dropdown-toggle, .dropdown-menu a {
+    transition: background-color 0.4s ease, color 0.4s ease;
+     
+}
+
+.dropdown-menu a:hover {
+    background-color: rgb(117, 105, 93);
+    border-radius: 10px;
+    color: #FFFFFF; 
+  }
